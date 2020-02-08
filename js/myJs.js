@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu bé!',
+        title: 'He luu bé Vinh!',
         text: 'Anh có điều này muốn hỏi bé nhớ phải trả lời thật lòng nhoa.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
@@ -65,7 +65,7 @@ $('#no').mousemove(function() {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu đẹp trai vl :<<<<<<< ";
+    var text = " Tại vì anh đẹp trai vl :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
